@@ -1,0 +1,58 @@
+h1{
+	font-family: "Merriweather", serif;
+	font-size: 50px;
+	font-weight: bold;
+	line-height: 2;
+}
+
+h3{
+	font-family: "bahiana";
+	font-weight: lighter;
+	line-height: 10px;
+}
+
+p,{
+	font-family: "Merriweather", cursive;
+	font-size: 15px;
+	font-weight: bolder;
+}
+h4{
+	font-family: monospace;
+}
+
+.fa-space-shuttle{
+	font-size: 250px;
+	color: blue;
+}
+.fa-grav{
+	font-size: 100px;
+}
+
+/**
+ * CSS Pseudo-Classes Demo
+ **
+
+/* Normal Element Rule */
+a{ font-size: 64px; }
+
+/* Hover Pseudo Class: 
+    Changes the style only when mouse hovers 
+    over the preceding element.
+*/
+.serif:hover{ background-color: red; }
+
+/* Focus Pseudo Class
+    Changes the style only when browser
+    gives the element focus
+    (in this case, after the link is clicked).
+*/
+a.focus:focus{ background-color: orange; }
+
+/* Active Pseudo Class
+    Changes the style only while the user
+    clicks down on an element. This style ceases 
+    when the user releases their click.
+*/
+a.active:active{ background-color: black; }
+
+
